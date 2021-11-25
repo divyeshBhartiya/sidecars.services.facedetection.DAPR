@@ -351,3 +351,6 @@ MigrationBackup/
 /Building Blocks/ServiceInvocationBlock/WeatherAPI/appsettings.Development.json
 /Building Blocks/ServiceInvocationBlock/WeatherAPI/appsettings.json
 /Building Blocks/ServiceInvocationBlock/WeatherAPI/Properties/launchSettings.json
+/Building Blocks/ServiceInvocationBlock/WeatherApp/wwwroot
+/Building Blocks/ServiceInvocationBlock/WeatherApp/appsettings.Development.json
+/Building Blocks/ServiceInvocationBlock/WeatherApp/appsettings.json
