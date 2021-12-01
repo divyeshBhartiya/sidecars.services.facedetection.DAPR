@@ -1,0 +1,17 @@
+In the Weather API root folder run the command below:
+
+>> dapr run --app-id weatherapi --app-port 5001 --dapr-http-port 50001 dotnet run
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Switch to Weather App root folder and run the command below:
+
+>> dapr run --app-id weatherapp --app-port 5002 --dapr-http-port 50002 dotnet run
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+If everything is setup correctly, the dapr sidecars will communicate with each other. 
+Hence service discovery and invocation is achieved and we would be able to see the data on the home page.
+This is the basic implementation to showcase Service Invocation via DAPR.
+
+-----------------------------------------------------------------------------------------------------------------------------
