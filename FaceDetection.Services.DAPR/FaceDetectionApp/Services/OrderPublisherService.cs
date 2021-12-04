@@ -1,6 +1,5 @@
 ﻿using Dapr.Client;
 using FaceDetectionApp.Events;
-using FaceDetectionApp.Models;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
