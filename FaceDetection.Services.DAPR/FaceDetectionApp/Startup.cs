@@ -18,7 +18,8 @@ namespace FaceDetectionApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews().AddDapr();
+            services.AddControllersWithViews().AddDapr(); 
+            // Since this app is only going to Publish Events, not need to add any code in Configure method for DAPR.
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
