@@ -354,3 +354,5 @@ MigrationBackup/
 /Building Blocks/ServiceInvocationBlock/WeatherApp/wwwroot
 /Building Blocks/ServiceInvocationBlock/WeatherApp/appsettings.Development.json
 /Building Blocks/ServiceInvocationBlock/WeatherApp/appsettings.json
+/FaceDetection.Services.DAPR/OrdersAPI/appsettings.Development.json
+/FaceDetection.Services.DAPR/OrdersAPI/appsettings.json
