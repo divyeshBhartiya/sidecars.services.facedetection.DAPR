@@ -7,10 +7,10 @@ namespace OrdersAPI.Persistence
     public class OrdersContext : DbContext
     {
         public OrdersContext(DbContextOptions<OrdersContext> options) : base(options) { }
-        protected override void OnModelCreating(ModelBuilder builder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             var converter = new EnumToStringConverter<Status>();
-            builder
+            modelBuilder
                 .Entity<Order>()
                 .Property(p => p.Status)
                 .HasConversion(converter);
