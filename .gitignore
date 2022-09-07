@@ -356,3 +356,5 @@ MigrationBackup/
 /Building Blocks/ServiceInvocationBlock/WeatherApp/appsettings.json
 /FaceDetection.Services.DAPR/OrdersAPI/appsettings.Development.json
 /FaceDetection.Services.DAPR/OrdersAPI/appsettings.json
+/FaceDetection.Services.DAPR/OrdersAPI/dummy.jpg
+/FaceDetection.Services.DAPR/FacesAPI/Properties/launchSettings.json
